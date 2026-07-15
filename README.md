@@ -416,21 +416,6 @@ O sistema monitora a saúde do seu dispositivo em tempo real.
 | 👥 Clientes | Dispositivos conectados |
 | ⬆️⬇️ Atividade | Uploads e downloads ativos |
 
-### Health Score
-
-Um número de **0 a 100** que indica como está seu dispositivo:
-
-| Pontuação | Significado |
-|---|---|
-| 🟢 85–100 | Excelente |
-| 🔵 65–84 | Bom |
-| 🟡 40–64 | Atenção (verificar) |
-| 🔴 0–39 | Crítico (precisa de ação) |
-
-### Atualização
-
-As métricas são atualizadas automaticamente a cada 30 segundos.
-
 ---
 
 ## Backup
@@ -458,7 +443,21 @@ Você pode também experimentar a remoção da bateria do dispositivo no caso de
 
 ### O mobNAS É seguro?
 
-Sim. O acesso requer login e senha. A comunicação com a Cloudflare é criptografada. O sistema bloqueia automaticamente após 5 tentativas de senha errada.
+Sim. O acesso requer login e senha.
+
+Criptografia de senhas: utilizamos PBKDF2 com salt para armazenamento seguro de senhas.
+
+Autenticação JWT: tokens JSON Web Token para sessões seguras com validade de 24 horas.
+
+Refresh tokens: para renovação segura de sessões sem reenvio de credenciais.
+
+Rate limiting: limitação de tentativas de login para prevenção de ataques de força bruta.
+
+Bloqueio por tentativas: após 5 tentativas consecutivas de login com falha, o usuário é bloqueado por 15 minutos.
+
+Registro de tentativas: todas as tentativas de login (sucesso e falha) são registradas com IP, data e dispositivo.
+
+HTTPS recomendado: o acesso remoto via Cloudflare Tunnel utiliza criptografia TLS.
 
 ### Posso acessar de qualquer lugar?
 
