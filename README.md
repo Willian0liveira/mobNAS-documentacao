@@ -1,8 +1,8 @@
-# mob NAS
+# mobNAS
 
 **Transforme seu Android em um NAS pessoal acessível pela internet.**
 
-mob NAS é um aplicativo que transforma qualquer celular ou tablet Android em um servidor de arquivos (NAS). Com ele, você pode acessar, compartilhar e fazer streaming dos seus arquivos de qualquer lugar — sem precisar de computador, IP fixo ou configurações complicadas de rede.
+mobNAS é um aplicativo que transforma qualquer celular ou tablet Android em um servidor de arquivos (NAS). Com ele, você pode acessar, compartilhar e fazer streaming dos seus arquivos de qualquer lugar — sem precisar de computador, IP fixo ou configurações complicadas de rede.
 
 ---
 
@@ -28,7 +28,7 @@ mob NAS é um aplicativo que transforma qualquer celular ou tablet Android em um
 
 ## O que é o mob NAS?
 
-mob NAS (Mobile NAS) é a solução para transformar aquele celular antigo ou tablet parado em um servidor de arquivos útil.
+mobNAS (Mobile NAS) é a solução para transformar aquele celular antigo ou tablet parado em um servidor de arquivos útil.
 
 ### Para que serve?
 
