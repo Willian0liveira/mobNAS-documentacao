@@ -2,7 +2,7 @@
 
 **Transforme seu Android em um NAS pessoal acessível pela internet.**
 
-mobNAS é um aplicativo que transforma qualquer celular ou tablet Android em um servidor de arquivos (NAS). Com ele, você pode acessar, compartilhar e fazer streaming dos seus arquivos de qualquer lugar — sem precisar de computador, IP fixo ou configurações complicadas de rede.
+mobNAS é um aplicativo que transforma qualquer celular ou tablet Android em um servidor de arquivos (NAS). Com ele, você pode acessar, compartilhar e fazer streaming dos seus arquivos de qualquer lugar sem precisar de computador, IP fixo ou configurações complicadas de rede.
 
 ---
 
@@ -14,7 +14,7 @@ mobNAS é um aplicativo que transforma qualquer celular ou tablet Android em um 
 - [Usando o Aplicativo](#usando-o-aplicativo)
 - [Acessando Seus Arquivos](#acessando-seus-arquivos)
 - [Compartilhando Arquivos](#compartilhando-arquivos)
-- [WebDAV — Conecte Como um Disco de Rede](#webdav--conecte-como-um-disco-de-rede)
+- [WebDAV. Conecte Como um Disco de Rede](#webdav--conecte-como-um-disco-de-rede)
 - [Streaming de Mídia](#streaming-de-mídia)
 - [Acesso pela Internet com Cloudflare](#acesso-pela-internet-com-cloudflare)
 - [Modo NAS (24/7)](#modo-nas-247)
