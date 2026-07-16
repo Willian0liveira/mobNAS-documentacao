@@ -82,7 +82,8 @@ mobNAS (Mobile NAS) é a solução para transformar aquele celular antigo ou tab
 
 ### Instalação
 
-1. Instale o aplicativo no seu dispositivo Android
+1. Obtenha e instale o aplicativo no seu dispositivo Android pela GooglePlay:
+https://play.google.com/store/apps/details?id=com.wbytesistemas.mob_nas
 2. Abra o mob NAS
 3. Na primeira vez, você verá uma tela de boas-vindas explicando as principais funções
 
